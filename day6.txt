@@ -1,0 +1,3 @@
+Input in day_input.txt
+
+Answers: 314247 and 514
