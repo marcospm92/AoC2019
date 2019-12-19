@@ -234,8 +234,14 @@ def run(index, opcode):
             break
 
 
-print("PART 1")
-index = 0
-print(opcode)
-run(index, opcode)
-print(opcode)
+def main():
+    print("PART 1")
+    index = 0
+    print(opcode)
+    run(index, opcode)
+    print(opcode)
+
+
+if __name__ == "__main__":
+    # stuff only to run when not called via 'import' here
+    main()
